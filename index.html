@@ -5,26 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的个人网站</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">首页</a></li>
-            <li><a href="about.html">关于我</a></li>
-            <li><a href="projects.html">项目</a></li>
-            <li><a href="contact.html">联系我</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <div class="logo">我的网站</div>
+            <ul>
+                <li><a href="index.html" class="active">首页</a></li>
+                <li><a href="about.html">关于我</a></li>
+                <li><a href="projects.html">项目</a></li>
+                <li><a href="contact.html">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
     
     <main>
         <section class="hero">
-            <h1>欢迎来到我的个人网站</h1>
-            <p>这里是我的个人空间，展示我的作品和想法</p>
+            <div class="hero-content">
+                <h1>欢迎来到我的个人空间</h1>
+                <p class="subtitle">这里记录着我的成长、分享和创造</p>
+                <a href="about.html" class="cta-button">了解更多</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <i class="fas fa-code"></i>
+                <h3>技术分享</h3>
+                <p>分享编程经验和学习心得</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-project-diagram"></i>
+                <h3>项目展示</h3>
+                <p>展示我的作品和项目经验</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-blog"></i>
+                <h3>博客文章</h3>
+                <p>记录生活和工作中的思考</p>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 我的个人网站. 保留所有权利。</p>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 我的个人网站. 保留所有权利。</p>
+        </div>
     </footer>
 </body>
 </html> 
