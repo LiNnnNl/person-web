@@ -9,45 +9,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.css">
     <style>
         .article-container {
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 2rem;
         }
         .article-header {
+            text-align: center;
             margin-bottom: 2rem;
-            margin-top: 2rem;
         }
         .article-header h1 {
-            color: #1a365d;
+            margin-top: 2rem;
             margin-bottom: 1rem;
         }
-        .article-meta {
-            color: #666;
+        .article-date {
+            color: #000;
             font-size: 0.9rem;
         }
-        .article-content {
-            line-height: 1.8;
+        .markdown-body {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            color: #000;
         }
-        .article-content p {
+        .markdown-body p {
             text-indent: 2em;
             margin-bottom: 1em;
-        }
-        .article-content h2 {
-            color: #1a365d;
-            margin: 2rem 0 1rem;
-        }
-        .article-content h3 {
-            color: #1a365d;
-            margin: 1.5rem 0 1rem;
-        }
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #2c3e50;
-            text-decoration: none;
-        }
-        .logo:hover {
-            color: #3498db;
         }
         .back-link {
             display: inline-block;
@@ -66,8 +53,9 @@
 <body>
     <header>
         <nav>
-            <a href="../index.html" class="logo">Lin的个人网站</a>
+            <div class="logo">Lin的网站</div>
             <ul>
+                <li><a href="../index.html">首页</a></li>
                 <li><a href="../about.html">关于我</a></li>
                 <li><a href="../projects.html">项目</a></li>
             </ul>
